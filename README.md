@@ -18,7 +18,7 @@ Some sample screenshots I got doing tutorial 6:
 # Tutorial 7
 Calling services:
 ```rosservice call /spawn 2 2 0.2 "" ```
-![rqt_graph initial](media/t6_service_spawn.png)
+![call spawn service](media/t6_service_spawn.png)
 
 Changing parameters:
 ```
@@ -27,4 +27,14 @@ rosparam set /background_g 255
 rosparam set /background_b 0
 rosservice call /clear
 ```
-![rqt_graph initial](media/t6_param.png)
+![setting green background](media/t6_param.png)
+
+# Tutorial 8
+Setting the log level of the console:
+![rqt_console](media/t8_rqt_console.png)
+
+Launching a roslaunch file:
+![launching launch file](media/t8_roslaunch.png)
+
+Using rqt tools, rqt_graph in this case:
+![rqt_graph with dual sim](media/t8_rqt_graph.png)
