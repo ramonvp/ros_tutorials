@@ -46,3 +46,28 @@ I had to install vim with:
 
 Since vim is a bit difficult to understand all the keyboard commands, I changed my default to editor to nano, which I know better. This can be done adding the following line in your .bashrc user home directory:
 ``` export EDITOR='nano -w' ```
+
+# Tutorial 11
+After following the steps described in the tutorial, I run the nodes with these commands in separate shells:
+```
+rosrun begginer_tutorials talker
+rosrun begginer_tutorials listener
+```
+And I can observe in the talker window:
+```
+...
+[ INFO] [1572607668.634235135]: hello world 180
+[ INFO] [1572607668.734235464]: hello world 181
+[ INFO] [1572607668.834269658]: hello world 182
+[ INFO] [1572607668.934264650]: hello world 183
+...
+```
+And in the listener window:
+```
+...
+[ INFO] [1572607668.634506434]: I heard: [hello world 180]
+[ INFO] [1572607668.734737405]: I heard: [hello world 181]
+[ INFO] [1572607668.834739739]: I heard: [hello world 182]
+[ INFO] [1572607668.934757512]: I heard: [hello world 183]
+....
+```
