@@ -38,3 +38,11 @@ Launching a roslaunch file:
 
 Using rqt tools, rqt_graph in this case:
 ![rqt_graph with dual sim](media/t8_rqt_graph.png)
+
+# Tutorial 9
+Checking rosed to directly edit files faster.
+I had to install vim with:
+``` sudo apt install vim ```
+
+Since vim is a bit difficult to understand all the keyboard commands, I changed my default to editor to nano, which I know better. This can be done adding the following line in your .bashrc user home directory:
+``` export EDITOR='nano -w' ```
