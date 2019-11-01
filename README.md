@@ -71,3 +71,27 @@ And in the listener window:
 [ INFO] [1572607668.934757512]: I heard: [hello world 183]
 ....
 ```
+# Tutorial 12
+After downloading the python scripts, I launched with the following commands in different shells:
+```
+rosrun begginer_tutorials talker.py
+rosrun begginer_tutorials listener.py
+```
+The output of the talker:
+```
+...
+[INFO] [1572608592.058669]: hello world 1572608592.06
+[INFO] [1572608592.158685]: hello world 1572608592.16
+[INFO] [1572608592.258630]: hello world 1572608592.26
+[INFO] [1572608592.358627]: hello world 1572608592.36
+...
+```
+And here is the output of the listener:
+```
+...
+[INFO] [1572608603.060363]: /listener_2839_1572608602423I heard hello world 1572608603.06
+[INFO] [1572608603.160395]: /listener_2839_1572608602423I heard hello world 1572608603.16
+[INFO] [1572608603.260302]: /listener_2839_1572608602423I heard hello world 1572608603.26
+[INFO] [1572608603.360210]: /listener_2839_1572608602423I heard hello world 1572608603.36
+...
+```
